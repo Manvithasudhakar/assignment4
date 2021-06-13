@@ -11,11 +11,11 @@
         <input type="text" name="txt" placeholder="Enter the String" required />
         <br><br>
         <input type="radio" name="string"  value="reverse" required/><i>Reverse <i><br>
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="string"  value="length"/><i>Length of String <i><br>
+        <input type="radio" name="string"  value="length"/><i>Length of String <i><br>
         <input type="radio" name="string"  value="substring"/><i>Substring<i> <br>
         <input type="radio" name="string"  value="upper"/><i>Uppercase<i> <br>
         <input type="radio" name="string"  value="lower"/><i>Lowercase <i><br>
-        &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<input type="radio" name="string"  value="words"/><i>Number of words <i><br>
+        <input type="radio" name="string"  value="words"/><i>Number of words <i><br>
         <br><br>
         <input type="submit" name="submit" value="Submit"/>
     </form>
