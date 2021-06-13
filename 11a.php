@@ -33,17 +33,17 @@ echo "</table>";
             $total = $total + $prc[$i];
         }
 
-        echo 'Total Amount Is: '.$total;
+        echo 'Total Amount : '.$total;
 
         $mx= max($prc);
         $ky = array_search($mx, $prc);
         echo '<br>';
-        echo 'Costliest item Is: '.$nme[$ky];
+        echo 'Costliest item : '.$nme[$ky];
 
         $mn= min($prc);
         $key = array_search($mn, $prc);
         echo '<br>';
-        echo 'Cheapest item Is: '.$nme[$key];
+        echo 'Cheapest item : '.$nme[$key];
 }     
 ?>
 <br>
