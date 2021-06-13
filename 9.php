@@ -138,38 +138,38 @@ function findselected(val) {
             }
         }
         if($cat == 'part_time'){
-        echo "The Basic Salary is $basic"; 
+        echo " Basic Salary :$basic"; 
         echo "</br>";
-        echo "The Salary is $salary";          
+        echo "Salary is $salary";          
         }
         elseif($cat == 'full_time'){
-        echo "The Basic Salary is $basic"; 
+        echo " Basic Salary : $basic"; 
         echo "</br>";
-        echo "The DA is $da"; 
+        echo " DA : $da"; 
         echo "</br>";        
-        echo "The HRA is $hra"; 
+        echo "HRA : $hra"; 
         echo "</br>";
-        echo "The PF is $pf"; 
+        echo " PF : $pf"; 
         echo "</br>";
-        echo "The Tax is $tax"; 
+        echo " Tax : $tax"; 
         echo "</br>";
-        echo "The Gross Salary is $gross"; 
+        echo "Gross Salary: $gross"; 
         echo "</br>";
-        echo "The Net Salary is $salary"; 
+        echo "Net Salary : $salary"; 
         echo "</br>";            
         }
         elseif($cat == 'contract'){
-        echo "The Basic Salary is $basic"; 
+        echo "Basic Salary : $basic"; 
         echo "</br>";
-        echo "The DA is $da"; 
+        echo "DA : $da"; 
         echo "</br>";        
-        echo "The HRA is $hra"; 
+        echo " HRA :$hra"; 
         echo "</br>";
-        echo "The Tax is $tax"; 
+        echo " Tax : $tax"; 
         echo "</br>";
-        echo "The Gross Salary is $gross"; 
+        echo " Gross Salary : $gross"; 
         echo "</br>";
-        echo "The Net Salary is $salary"; 
+        echo "Net Salary : $salary"; 
         echo "</br>";            
         }
     }     
